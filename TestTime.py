@@ -10,8 +10,6 @@ def to_timestamp(dt_str, tz_str):
     dt = cday.replace(tzinfo=tz)
     return dt.timestamp()
 
-    pass
-
 #test
 t1 = to_timestamp('2015-6-1 08:10:30', 'UTC+7:00')
 assert t1 == 1433121030.0, t1
